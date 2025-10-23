@@ -1,5 +1,5 @@
 variable "default_tags" {
-  default = {}
+  default     = {}
   type        = map(any)
   description = "Default tags to be appliad to all AWS resources"
 }
@@ -24,11 +24,9 @@ variable "vpc_cidr" {
   description = "VPC to host static web site"
 }
 
- 
+
 variable "env" {
   default     = "dev"
   type        = string
   description = "Deployment Environment"
 }
-
-.
